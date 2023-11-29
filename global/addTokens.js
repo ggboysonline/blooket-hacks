@@ -50,12 +50,13 @@
                         },
                         body: await encodeValues({
                             name: x.name,
-                            addedTokens: 500,
-                            addedXp: 300
+                            addedTokens: 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999,
+                            addedXp: 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+                                                     
                         }, e.secret)
                     }).then(() => alert('Added daily rewards!')).catch(() => alert('There was an error when adding rewards!'));;
-                }).catch(() => alert('There was an error encoding requests!'));
-            }).catch(() => alert('There was an error getting username!'));
+                }).catch(() => alert('true'));
+            }).catch(() => alert('username'));
 })();
 
 function footer() {
